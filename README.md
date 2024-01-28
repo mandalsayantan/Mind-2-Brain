@@ -2,7 +2,6 @@
 
 #############################################################################################
 
-
 # From Mind To Brain, 2023
 # Routine for silent-production Analogy study with Tobias Scheer @ CNRS, BCL Laboratory, Cote d'Azure, France | VERSION 2.0 with photodiode accuracy implemented
 # Sayantan Mandal // s.mandal@eversincechomsky.com 
@@ -55,23 +54,23 @@ If different wrt to all three, we have isolated the EEG signature of analogy.
 
 SUMMARY OF TIMING SYNCHRONIZATION USING PHOTODIODE AND BITMAP
 #
-# # 1. Presentation of Bitmap Stimulus:
+#  1. Presentation of Bitmap Stimulus:
 # The bitmap stimulus is a visual event presented on the screen at a precise point in 
 # # the experiment. This event is chosen to be visually distinct and easily #identifiable.
-##
-# # 2. Sending Trigger Code:
+#
+#  2. Sending Trigger Code:
 # At the same time the bitmap stimulus is presented, a trigger code is sent to the EEG recording system. 
-# # This trigger code is a numerical value that uniquely identifies the experimental condition, task type, or any specific event.
+#  This trigger code is a numerical value that uniquely identifies the experimental condition, task type, or any specific event.
 #
-# # 3. Recording Trigger Code and Timing:
+#  3. Recording Trigger Code and Timing:
 # The script records the trigger code along with the timing information (time from the start of the experiment) when the bitmap 
-# # stimulus is presented. The information is then logged to the data files.
+#  stimulus is presented. The information is then logged to the data files.
 #
-# # 4. EEG Data Recording:
+#  4. EEG Data Recording:
 # Simultaneously, the EEG recording system records the trigger code along with the corresponding EEG data. 
-# # The trigger code serves as a marker in the EEG data stream, indicating when specific events or conditions occurred in the #experiment.
+#  The trigger code serves as a marker in the EEG data stream, indicating when specific events or conditions occurred in the #experiment.
 #
-# # 5. Analysis and Synchronization:
+#  5. Analysis and Synchronization:
 # After the experiment, the recorded EEG data and the experiment data (including trigger codes and timing) need to be analyzed together. 
-# # By identifying the trigger codes in the EEG data stream that correspond to the presentation of the 
-# # bitmap stimulus, we can align the EEG data with specific events in the experimental timeline.
+#  By identifying the trigger codes in the EEG data stream that correspond to the presentation of the 
+#  bitmap stimulus, we can align the EEG data with specific events in the experimental timeline.
