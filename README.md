@@ -3,8 +3,8 @@
 #############################################################################################
 
 # From Mind To Brain, 2023
-# Routine for silent-production Analogy study with Tobias Scheer @ CNRS, BCL Laboratory, Cote d'Azure, France | VERSION 2.0 with photodiode accuracy implemented
-# Sayantan Mandal // s.mandal@eversincechomsky.com 
+ Routine for silent-production 'Phonology vs. Analogy' study with Tobias Scheer @ CNRS, BCL Laboratory, Cote d'Azure, France | VERSION 2.0 with photodiode accuracy implemented
+ Sayantan Mandal // s.mandal@eversincechomsky.com 
 #############################################################################################
 
 
